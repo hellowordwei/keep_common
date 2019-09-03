@@ -12,7 +12,7 @@ eureka:
     prefer-ip-address: true
 feign:
   hystrix:
-    enabled: false
+    enabled: true
 myorderprovider:
   ribbon:
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
