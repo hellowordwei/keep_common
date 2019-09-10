@@ -8,7 +8,6 @@
         <module>keep_dao</module>
         <module>keep_module</module>
         <module>keep_dto</module>
-        <module>keep_service</module>
         <module>keep_utils</module>
     </modules>
     <parent>

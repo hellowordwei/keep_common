@@ -9,9 +9,11 @@
         <module name="keep_dao" />
         <module name="keep_dto" />
         <module name="keep_module" />
-        <module name="keep_service" />
         <module name="keep_utils" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="keep_service" target="1.6" />
+    </bytecodeTargetLevel>
   </component>
 </project>
